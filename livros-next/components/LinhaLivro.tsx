@@ -16,14 +16,16 @@ export const LinhaLivro: React.FC<LinhaLivroProps> = (props) => {
   return (
     <tr>
       <td>{livro.titulo}</td>
+      <td>{livro.resumo}</td>
       <td>{controleEditora.getNomeEditora(livro.codEditora)}</td>{" "}
       <td>
         <ul>
           {livro.autores.map((autor, index) => (
-            <li key={index}>{autor}</li>
+            <li className="" key={index}>{autor}</li>
           ))}
         </ul>
       </td>
+
       <td>
         <Button variant="danger" onClick={() => excluir(livro.codigo)}>
           Excluir

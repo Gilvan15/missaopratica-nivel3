@@ -1,8 +1,9 @@
 import Editora from '../modelo/Editora';
 const editoras: Array<Editora> = [
-  new Editora(1, 'Abril Editora'),
-  new Editora(2, 'Pearson Editora '),
-  new Editora(3, 'Editora  Moderna'),
+  new Editora(1, 'Editora Abecês'),
+  new Editora(2, 'AstroBooks Editora'),
+  new Editora(3, 'Livrosfera'),
+  new Editora(4, 'Alta Books'),
 ];
 
 class ControleEditora {

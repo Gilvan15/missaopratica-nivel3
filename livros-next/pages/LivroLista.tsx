@@ -53,13 +53,14 @@ const LivroLista: React.FC = () => {
 
       <div>
         <h1>Livros</h1>
-        <table className="table table-striped table-hover">
+        <table className="table table-striped table-hover text-start ">
           <thead className="table-dark">
             <tr>
-              <th>Título</th>
-              <th>Editora</th>
-              <th>Autor</th>
-              <th>Ação</th>
+              <th className="col-lg-2">Título</th>
+              <th className="col-lg-7">Resumo</th>
+              <th className="col-lg-1">Editora</th>
+              <th className="col-lg-2">Autor</th>
+              <th  >Ação</th>
             </tr>
           </thead>
           <tbody>
